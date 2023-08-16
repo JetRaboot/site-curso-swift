@@ -72,4 +72,24 @@
     text-align: center;
     padding: 1rem 0;
   }
+  .gradient-background-blue {
+    background: linear-gradient(135deg, #00BFFF, #007bff);
+    animation: gradientAnimation 10s ease infinite;
+  }
   
+  .gradient-background-purple {
+    background: linear-gradient(135deg, #9b59b6, #8e44ad);
+    animation: gradientAnimation 10s ease infinite;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
