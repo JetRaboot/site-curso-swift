@@ -22,6 +22,16 @@ main {
   padding: 2rem;
 }
 
+.gradient-background-blue {
+  background: linear-gradient(135deg, #00BFFF, #007bff);
+  animation: gradientAnimation 10s ease infinite;
+}
+
+.gradient-background-purple {
+  background: linear-gradient(135deg, #9b59b6, #8e44ad);
+  animation: gradientAnimation 10s ease infinite;
+}
+
 .course {
   background-color: white;
   border: 1px solid #ddd;
@@ -57,6 +67,24 @@ footer {
   color: white;
   text-align: center;
   padding: 1rem 0;
+}
+
+.lesson {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.lesson h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.lesson video {
+  width: 100%;
+  border-radius: 5px;
 }
 
 @keyframes gradientAnimation {
