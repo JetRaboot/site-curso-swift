@@ -28,6 +28,12 @@ main {
   padding: 2rem;
 }
 
+.module-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px; /* Ajuste essa margem conforme necessário */
+}
+
 .module-button {
   background-color: #007bff;
   color: white;
