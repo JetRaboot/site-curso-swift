@@ -36,6 +36,13 @@ h2 {
   padding-left: 15px;
 }
 
+h3 {
+  margin: 0;
+  color: #000000;
+  padding-top: 20px;
+  padding-left: 15px;
+}
+
 main {
   max-width: 800px;
   margin: 0 auto;
