@@ -112,4 +112,6 @@ footer p {
   animation: gradientAnimation 10s ease infinite;
 }
 
-/* Resto dos seus estilos */
+.module-title {
+  margin-bottom: 20px; /* Adiciona espaço abaixo do título */
+}
