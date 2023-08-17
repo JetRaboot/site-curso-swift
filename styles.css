@@ -31,7 +31,7 @@ main {
 .module-button-container {
   display: flex;
   justify-content: center;
-  margin-top: 10px; /* Ajuste essa margem conforme necessário */
+  margin-top: 20px;
 }
 
 .module-button {
@@ -42,7 +42,6 @@ main {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
-  margin-top: 20px;
 }
 
 .module-button:hover {
