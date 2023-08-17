@@ -35,6 +35,11 @@ h1, h2 {
   margin: 0;
 }
 
+/* Altera a cor do título "Curso Swift" */
+h1 {
+  color: #3498db; /* Azul claro */
+}
+
 main {
   max-width: 800px;
   margin: 0 auto;
@@ -64,6 +69,11 @@ main {
 footer {
   text-align: center;
   padding: 1rem 0;
+}
+
+/* Altera a cor do rodapé (footer) */
+footer p {
+  color: #3498db; /* Azul claro */
 }
 
 .courses {
