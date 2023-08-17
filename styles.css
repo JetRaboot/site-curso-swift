@@ -114,7 +114,7 @@ footer p {
   overflow: hidden;
   position: relative;
   padding-bottom: 56.25%; /* 16:9 aspect ratio for responsive video */
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .module-title {
