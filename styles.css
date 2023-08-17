@@ -113,6 +113,7 @@ footer p {
   max-width: 100%;
   overflow: hidden;
   padding-bottom: 10%;
+  margin-top: 10px;
 }
 
 .module-title {
