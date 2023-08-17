@@ -6,7 +6,7 @@ body {
   padding: 0;
   background: linear-gradient(135deg, rgba(155, 89, 182, 0.5), rgba(142, 68, 173, 0.5)),
               url('imagem1.jpeg') center/cover no-repeat;
-  color: white;
+  color: rgb(211, 92, 13);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,11 +17,11 @@ body {
 
 @keyframes backgroundAnimation {
   0% {
-    background: linear-gradient(135deg, rgba(155, 89, 182, 0.5), rgba(142, 68, 173, 0.5)),
+    background: linear-gradient(135deg, #db6e0780, #db6e0780),
                 url('imagem1.jpeg') center/cover no-repeat;
   }
   100% {
-    background: linear-gradient(135deg, rgba(52, 152, 219, 0.5), rgba(41, 128, 185, 0.5)),
+    background: linear-gradient(135deg, #13161880, #13161880),
                 url('imagem2.jpeg') center/cover no-repeat;
   }
 }
@@ -31,7 +31,7 @@ body {
 header {
   text-align: center;
   padding: 2rem 0;
-  background-color: #3498db; /* Cor de fundo do título */
+  background-color: #000000; /* Cor de fundo do título */
   width: 100%; /* Alarga a cor de fundo */
 }
 
@@ -52,8 +52,8 @@ main {
 }
 
 .module-button {
-  background-color: #007bff;
-  color: white;
+  background-color: #000000;
+  color: rgb(226, 93, 4);
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -62,24 +62,24 @@ main {
 }
 
 .module-button:hover {
-  background-color: #0056b3;
+  background-color: #d36307;
 }
 
 footer {
   text-align: center;
   padding: 1rem 0;
-  background-color: #3498db; /* Cor de fundo do rodapé */
+  background-color: #000000; /* Cor de fundo do rodapé */
   width: 100%; /* Alarga a cor de fundo */
   margin-top: auto; /* Empurra o rodapé para a parte inferior */
 }
 
 footer p {
-  color: white;
+  color: #d36307;
 }
 
 .courses {
-  background-color: white;
-  border: 1px solid #ddd;
+  background-color: #d36307;
+  border: 1px solid rgba(247, 119, 14, 0.867)
   padding: 1.5rem;
   border-radius: 5px;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
