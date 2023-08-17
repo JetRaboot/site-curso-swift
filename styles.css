@@ -1,7 +1,4 @@
 /* styles.css */
-
-/* styles.css */
-
 body {
   font-family: 'Helvetica Neue', Arial, sans-serif;
   margin: 0;
@@ -13,7 +10,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  animation: gradientAnimation 10s linear infinite alternate;
+  animation: gradientAnimation 20s linear infinite alternate;
 }
 
 @keyframes gradientAnimation {
@@ -26,7 +23,6 @@ body {
 }
 
 /* Resto dos seus estilos */
-
 
 header {
   text-align: center;
