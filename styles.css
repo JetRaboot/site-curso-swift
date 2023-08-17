@@ -5,7 +5,7 @@ body {
   margin: 0;
   padding: 0;
   background: linear-gradient(135deg, rgba(155, 89, 182, 0.5), rgba(142, 68, 173, 0.5)),
-              url('imagem1.jpeg') center/cover no-repeat;
+              url('imagem2.jpeg') center/cover no-repeat;
   color: rgb(211, 92, 13);
   display: flex;
   flex-direction: column;
@@ -13,17 +13,6 @@ body {
   justify-content: center;
   min-height: 100vh;
   animation: backgroundAnimation 5s linear infinite alternate;
-}
-
-@keyframes backgroundAnimation {
-  0% {
-    background: linear-gradient(135deg, #db6e0780, #db6e0780),
-                url('imagem1.jpeg') center/cover no-repeat;
-  }
-  100% {
-    background: linear-gradient(135deg, #13161880, #13161880),
-                url('imagem2.jpeg') center/cover no-repeat;
-  }
 }
 
 /* Resto dos seus estilos */
