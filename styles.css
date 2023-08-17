@@ -29,15 +29,11 @@ body {
 header {
   text-align: center;
   padding: 2rem 0;
+  background-color: #3498db; /* Cor de fundo do título */
 }
 
 h1, h2 {
   margin: 0;
-}
-
-/* Altera a cor do título "Curso Swift" */
-h1 {
-  color: #3498db; /* Azul claro */
 }
 
 main {
@@ -69,11 +65,11 @@ main {
 footer {
   text-align: center;
   padding: 1rem 0;
+  background-color: #3498db; /* Cor de fundo do rodapé */
 }
 
-/* Altera a cor do rodapé (footer) */
 footer p {
-  color: #3498db; /* Azul claro */
+  color: white;
 }
 
 .courses {
