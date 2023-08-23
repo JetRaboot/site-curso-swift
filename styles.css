@@ -138,7 +138,7 @@ footer p {
   height: auto; /* Altura automática para manter a proporção original */
 }
 
-.back-button {
+.back {
   background-color: #050505;
   color: #d36307;
   padding: 10px 20px;
@@ -149,6 +149,6 @@ footer p {
   margin-top: 10px;
 }
 
-.back-button:hover {
+.back:hover {
   background-color: #d36307;
 }
