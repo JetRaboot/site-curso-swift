@@ -132,3 +132,8 @@ footer p {
   margin-top: 10px;
   color: #000000; /* Escolha a cor desejada */
 }
+
+.module-image {
+  width: 100px; /* Largura desejada */
+  height: auto; /* Altura automática para manter a proporção original */
+}
