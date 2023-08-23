@@ -497,8 +497,325 @@
         e legível.
       </p>
       <h3> funções </h3>
+      <p class="module-description">
+        Em Swift, as funções são blocos de código reutilizáveis que podem receber argumentos, 
+        executar ações específicas e retornar valores, se necessário. Elas são fundamentais 
+        para organizar e modularizar o código, permitindo que você divida tarefas complexas 
+        em partes mais gerenciáveis. Aqui estão os principais conceitos sobre funções em Swift:
+      </p>
+      <p class="module-description">
+        Sintaxe de Declaração de Função:
+      </p>
+      <p class="module-description">
+        Aqui está a sintaxe básica para declarar uma função em Swift:
+      </p>
+      <pre>
+        <code>
+          func nomeDaFuncao(parametros) -> TipoDeRetorno {
+            // Corpo da função
+            return valorDeRetorno
+          }        
+        </code>
+      </pre>
+      <p class="module-description">
+        a. func: Palavra-chave para declarar uma função.
+      </p>
+      <p class="module-description">
+        b. nomeDaFuncao: Substitua isso pelo nome que você deseja dar à sua função.
+      </p>
+      <p class="module-description">
+        c. parametros: Lista de argumentos que a função recebe, separados por vírgula.
+      </p>
+      <p class="module-description">
+        d. TipoDeRetorno: O tipo de dado que a função irá retornar. Use Void se a função não retornar nada.
+      </p>
+      <p class="module-description">
+        e. return: Palavra-chave usada para retornar um valor da função.
+      </p>
+      <p class="module-description">
+        f. valorDeRetorno: O valor que a função irá retornar, conforme o tipo de retorno especificado.
+      </p>
+      <p class="module-description">
+        1- Exemplo de Função Simples:
+      </p>
+      <p class="module-description">
+        Aqui está um exemplo de uma função simples que calcula a soma de dois números:
+      </p>
+      <pre>
+        <code>
+          func soma(a: Int, b: Int) -> Int {
+            return a + b
+          }
+        
+          let resultado = soma(a: 5, b: 3) // resultado é 8        
+        </code>
+      </pre>
+      <p class="module-description">
+        2- Funções sem Retorno:
+      </p>
+      <p class="module-description">
+        Se uma função não precisa retornar um valor, você pode usar Void ou simplesmente 
+        omitir o tipo de retorno:
+      </p>
+      <pre>
+        <code>
+          func saudacao(nome: String) {
+            print("Olá, \(nome)!")
+          }
+        
+          saudacao(nome: "Alice") // Imprime "Olá, Alice!"        
+        </code>
+      </pre>
+      <p class="module-description">
+        3- Parâmetros Nomeados:
+      </p>
+      <p class="module-description">
+        Em Swift, os parâmetros de função são nomeados por padrão, o que torna a chamada 
+        da função mais legível:
+      </p>
+      <pre>
+        <code>
+          func exibir(nome: String, idade: Int) {
+            print("Nome: \(nome), Idade: \(idade)")
+          }
+        
+          exibir(nome: "João", idade: 30) // Imprime "Nome: João, Idade: 30"        
+        </code>
+      </pre>
+      <p class="module-description">
+        4- Parâmetros com Rótulos Externos:
+      </p>
+      <p class="module-description">
+        Você também pode usar rótulos externos para melhorar a clareza ao chamar funções:
+      </p>
+      <pre>
+        <code>
+          func saudar(pessoa nome: String) {
+            print("Olá, \(nome)!")
+          }
+        
+          saudar(pessoa: "Carlos") // Imprime "Olá, Carlos!"        
+        </code>
+      </pre>
+      <p class="module-description">
+        5- Funções Opcionais:
+      </p>
+      <p class="module-description">
+        Você pode definir parâmetros opcionais em uma função, usando o tipo Tipo? 
+        para indicar que o valor pode ser nulo:
+      </p>
+      <pre>
+        <code>
+          func saudar(nome: String?) {
+            if let nome = nome {
+                print("Olá, \(nome)!")
+            } else {
+                print("Olá, pessoa desconhecida!")
+            }
+          }
+        
+          saudar(nome: "Ana") // Imprime "Olá, Ana!"
+          saudar(nome: nil)   // Imprime "Olá, pessoa desconhecida!"        
+        </code>
+      </pre>
+      <p class="module-description">
+        Essas são apenas algumas das muitas possibilidades e recursos relacionados 
+        a funções em Swift. Elas desempenham um papel fundamental no desenvolvimento 
+        de aplicativos, permitindo que você modularize e reutilize o código de forma eficaz.
+      </p>
       <h3> Arrays </h3>
+      <p class="module-description">
+        Em Swift, um array é uma coleção ordenada de elementos do mesmo tipo. Os arrays permitem 
+        armazenar múltiplos valores em uma única estrutura, acessíveis por meio de índices. Aqui 
+        estão os principais conceitos sobre arrays em Swift:
+      </p>
+      <p class="module-description">
+        Sintaxe de Declaração de Array:
+      </p>
+      <p class="module-description">
+        Aqui está a sintaxe básica para declarar um array em Swift:
+      </p>
+      <pre>
+        <code>
+          var nomeDoArray: [TipoDoElemento] = []
+        </code>
+      </pre>
+      <p class="module-description">
+        a. var: Palavra-chave para declarar uma variável.
+      </p>
+      <p class="module-description">
+        b. nomeDoArray: O nome que você deseja dar ao array.
+      </p>
+      <p class="module-description">
+        c. TipoDoElemento: O tipo de dado dos elementos que o array irá conter.
+      </p>
+      <p class="module-description">
+        d. []: Colchetes vazios usados para criar um array vazio.
+      </p>
+      <p class="module-description">
+        1- Exemplo de Array:
+      </p>
+      <p class="module-description">
+        Aqui está um exemplo de declaração de array e adição de elementos:
+      </p>
+      <pre>
+        <code>
+          var numeros: [Int] = [1, 2, 3, 4, 5]
+        </code>
+      </pre>
+      <p class="module-description">
+        2- Adição e Acesso a Elementos:
+      </p>
+      <p class="module-description">
+        Você pode adicionar elementos a um array usando o método append(_:) 
+        ou adicionando diretamente ao final do array:
+      </p>
+      <pre>
+        <code>
+          numeros.append(6) // Adiciona o número 6 ao final do array
+          numeros += [7, 8] // Adiciona os números 7 e 8 ao final do array
+        </code>
+      </pre>
+      <p class="module-description">
+        Para acessar elementos em um array, use índices baseados em zero:
+      </p>
+      <pre>
+        <code>
+          let primeiroNumero = numeros[0] // Primeiro elemento (1)
+          let terceiroNumero = numeros[2] // Terceiro elemento (3)
+        </code>
+      </pre>
+      <p class="module-description">
+        3- Tamanho e Verificação de Vazio:
+      </p>
+      <p class="module-description">
+        Você pode obter o número de elementos em um array usando a propriedade count:
+      </p>
+      <pre>
+        <code>
+          let quantidadeDeNumeros = numeros.count // 8
+        </code>
+      </pre>
+      <p class="module-description">
+        Você também pode verificar se um array está vazio usando o método isEmpty:
+      </p>
+      <pre>
+        <code>
+          let estaVazio = numeros.isEmpty // false
+        </code>
+      </pre>
+      <p class="module-description">
+        4- Iteração em um Array:
+      </p>
+      <p class="module-description">
+        Você pode iterar sobre os elementos de um array usando um loop for-in:
+      </p>
+      <pre>
+        <code>
+          for numero in numeros {
+            print(numero)
+          }        
+        </code>
+      </pre>
+      <p class="module-description">
+        5- Métodos de Array:
+      </p>
+      <p class="module-description">
+        Swift fornece diversos métodos úteis para manipular arrays, como map, filter, 
+        reduce, entre outros. Esses métodos permitem realizar operações comuns de 
+        maneira eficiente e expressiva.
+      </p>
+      <pre>
+        <code>
+          let numerosDobrados = numeros.map { $0 * 2 } // [2, 4, 6, 8, 10, 12, 14, 16]
+          let numerosPares = numeros.filter { $0 % 2 == 0 } // [2, 4, 6, 8]
+          let somaDosNumeros = numeros.reduce(0, +) // 36
+        </code>
+      </pre>
+      <p class="module-description">
+        Esses são apenas alguns dos conceitos e recursos relacionados a arrays em Swift. 
+        Eles são muito úteis para armazenar e manipular conjuntos de dados em seus aplicativos.
+      </p>
       <h3> Exemplos básicos de Programação </h3>
+      <p class="module-description">
+        1- Variáveis:
+      </p>
+      <pre>
+        <code>
+          var idade: Int = 25
+          var nome: String = "Maria"
+          var altura: Double = 1.65
+          var isActive: Bool = true
+
+          idade += 5 // idade agora é 30
+        </code>
+      </pre>
+      <p class="module-description">
+        2- Estruturas Condicionais:
+      </p>
+      <pre>
+        <code>
+          let temperatura = 28
+
+          if temperatura > 30 {
+              print("Está muito quente!")
+          } else if temperatura >= 20 {
+              print("O clima está agradável.")
+          } else {
+              print("Está um pouco frio.")
+          }
+        </code>
+      </pre>
+      <p class="module-description">
+        3- Loops:
+      </p>
+      <pre>
+        <code>
+          for numero in 1...5 {
+            print(numero)
+          }
+        
+          var contador = 0
+          while contador < 3 {
+              print("Contador: \(contador)")
+              contador += 1
+          }        
+        </code>
+      </pre>
+      <p class="module-description">
+        4- Funções:
+      </p>
+      <pre>
+        <code>
+          func saudacao(nome: String) {
+            print("Olá, \(nome)!")
+          }
+        
+          func soma(a: Int, b: Int) -> Int {
+            return a + b
+          }
+        
+          saudacao(nome: "João") // Imprime "Olá, João!"
+          let resultado = soma(a: 3, b: 7) // resultado é 10        
+        </code>
+      </pre>
+      <p class="module-description">
+        5- Arrays:
+      </p>
+      <pre>
+        <code>
+          var numeros: [Int] = [1, 2, 3, 4, 5]
+
+          numeros.append(6)
+          numeros += [7, 8]
+
+          for numero in numeros {
+              print(numero)
+          }
+
+          let primeiroNumero = numeros[0] // 1
+        </code>
+      </pre>
     </section>
   </main>
   <footer>
