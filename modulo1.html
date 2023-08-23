@@ -817,7 +817,7 @@
           let primeiroNumero = numeros[0] // 1
         </code>
       </pre>
-      <button class="back" onclick="goBack()">Voltar</button>
+      <button class="back" onclick="goToMainMenu()">Menu principal</button>
       <button class="next" onclick="goToNextPage()">Próxima Página</button>
     </section>
   </main>
@@ -826,8 +826,8 @@
     <p>&copy; 2023 made by João Renó</p>
   </footer>
   <script>
-    function goBack() {
-      window.history.back();
+    function goToMainMenu() {
+      window.location.href = "index.html";
     }
     function goToNextPage() {
       window.location.href = "modulo2.html";

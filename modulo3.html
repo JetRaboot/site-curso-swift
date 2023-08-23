@@ -22,7 +22,7 @@
       <p class="module-description">Em breve
       </p>
       <button class="back-page" onclick="goToPreviousPage()">Voltar para a Página anterior</button>
-      <button class="back" onclick="goBack()">Voltar</button>
+      <button class="back" onclick="goToMainMenu()">Menu principal</button>
     </section>
 </main>
 </div>
@@ -30,8 +30,8 @@
   <p>&copy; 2023 made by João Renó</p>
 </footer>
 <script>
-    function goBack() {
-      window.history.back();
+    function goToMainMenu() {
+      window.location.href = "index.html";
     }
     function goToPreviousPage() {
       window.history.go(-1);
