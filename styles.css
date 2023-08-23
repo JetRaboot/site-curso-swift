@@ -135,5 +135,5 @@ footer p {
 
 .module-image {
   width: 30px; /* Largura desejada */
-  height: auto; /* Altura automática para manter a proporção original */
+  height: 100px; /* Altura automática para manter a proporção original */
 }
