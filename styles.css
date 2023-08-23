@@ -137,3 +137,18 @@ footer p {
   width: 250px; /* Largura desejada */
   height: auto; /* Altura automática para manter a proporção original */
 }
+
+.back-button {
+  background-color: #050505;
+  color: #d36307;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.back-button:hover {
+  background-color: #d36307;
+}
