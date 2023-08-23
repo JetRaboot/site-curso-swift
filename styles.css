@@ -163,7 +163,7 @@ footer p {
 .next {
   background-color: #050505;
   color: #d36307;
-  padding: 15px 40px;
+  padding: 15px 350px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -179,7 +179,7 @@ footer p {
 .back-page {
   background-color: black;
   color: #d36307;
-  padding: 15px 40px;
+  padding: 15px 350px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
