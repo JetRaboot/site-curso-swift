@@ -818,6 +818,7 @@
         </code>
       </pre>
       <button class="back" onclick="goBack()">Voltar</button>
+      <button class="next" onclick="goToNextPage()">Próxima Página</button>
     </section>
   </main>
 </div>
@@ -827,6 +828,9 @@
   <script>
     function goBack() {
       window.history.back();
+    }
+    function goToNextPage() {
+      window.location.href = "modulo2.html";
     }
   </script>
 </body>

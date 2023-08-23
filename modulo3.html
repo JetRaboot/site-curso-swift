@@ -21,6 +21,7 @@
       </div>
       <p class="module-description">Em breve
       </p>
+      <button class="back-page" onclick="goToPreviousPage()">Voltar para a Página anterior</button>
       <button class="back" onclick="goBack()">Voltar</button>
     </section>
 </main>
@@ -31,6 +32,9 @@
 <script>
     function goBack() {
       window.history.back();
+    }
+    function goToPreviousPage() {
+      window.history.go(-1);
     }
   </script>
 </body>

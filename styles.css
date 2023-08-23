@@ -159,3 +159,35 @@ footer p {
   background-color: #d36307;
   color: black;
 }
+
+.next {
+  background-color: #050505;
+  color: #d36307;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.next:hover {
+  background-color: #d36307;
+  color: #000;
+}
+
+.back-page {
+  background-color: black;
+  color: #d36307;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.back-page:hover {
+  background-color: #d36307;
+  color: #000;
+}
