@@ -111,10 +111,7 @@ footer p {
 }
 
 .video-container {
-  max-width: 100%;
-  overflow: hidden;
-  position: relative;
-  padding-bottom: 56.25%;
+  margin-bottom: 10px;
 }
 
 .video-container video {
