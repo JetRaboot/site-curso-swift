@@ -189,3 +189,12 @@ footer p {
   background-color: #d36307;
   color: #000;
 }
+.text-container {
+  text-align: center;
+}
+
+.large-text {
+  font-size: 24px; /* Tamanho do texto grande */
+  font-weight: bold; /* Peso da fonte (negrito) */
+  color: #333; /* Cor do texto */
+}
