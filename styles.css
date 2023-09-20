@@ -34,6 +34,7 @@ header {
 h1 {
   margin: 0;
   color: rgb(226, 93, 4);
+  font-size: 64px;
 }
 
 h2 {
@@ -41,6 +42,7 @@ h2 {
   color: #000000;
   padding-top: 20px;
   padding-left: 15px;
+  font-size: 64px;
 }
 
 h3 {
@@ -48,6 +50,7 @@ h3 {
   color: #000000;
   padding-top: 20px;
   padding-left: 15px;
+  font-size: 64px;
 }
 
 main {
@@ -61,6 +64,7 @@ main {
   justify-content: center;
   margin-top: 20px;
   margin-bottom: 20px;
+  font-size: 64px;
 }
 
 .module-button {
@@ -72,6 +76,7 @@ main {
   cursor: pointer;
   transition: background-color 0.3s;
   text-decoration: none;
+  font-size: 64px;
 }
 
 .module-button:hover {
@@ -89,6 +94,7 @@ footer {
 
 footer p {
   color: #d36307;
+  font-size: 64px;
 }
 
 .courses {
@@ -98,16 +104,19 @@ footer p {
   border-radius: 5px;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
+  font-size: 64px;
 }
 
 .courses h2 {
   margin-top: 0;
   color: #000;
+  font-size: 64px;
 }
 
 .courses p {
   margin-bottom: 1rem;
   text-align: center;
+  font-size: 64px;
 }
 
 .video-container {
@@ -132,7 +141,7 @@ footer p {
 }
 
 .module-description {
-  font-size: 16px;
+  font-size: 64px;
   margin-top: 10px;
   color: #000000;
 }
@@ -151,11 +160,13 @@ footer p {
   cursor: pointer;
   transition: background-color 0.3s;
   margin-top: 10px;
+  font-size: 64px;
 }
 
 .back:hover {
   background-color: #d36307;
   color: black;
+  font-size: 64px;
 }
 
 .next {
@@ -167,11 +178,13 @@ footer p {
   cursor: pointer;
   transition: background-color 0.3s;
   margin-top: 10px;
+  font-size: 64px;
 }
 
 .next:hover {
   background-color: #d36307;
   color: #000;
+  font-size: 64px;
 }
 
 .back-page {
@@ -183,18 +196,21 @@ footer p {
   cursor: pointer;
   transition: background-color 0.3s;
   margin-top: 10px;
+  font-size: 64px;
 }
 
 .back-page:hover {
   background-color: #d36307;
   color: #000;
+  font-size: 64px;
 }
 .text-container {
   text-align: center;
+  font-size: 64px;
 }
 
 .large-text {
-  font-size: 24px; /* Tamanho do texto grande */
-  font-weight: bold; /* Peso da fonte (negrito) */
-  color: #333; /* Cor do texto */
+  font-size: 64px;
+  font-weight: bold;
+  color: #333;
 }
